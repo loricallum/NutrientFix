@@ -1,0 +1,153 @@
+img {
+	/*height: 50%
+	width: 30%;*/
+	width: 200px;
+	float: left;
+	margin-left: 1.66%;/* 10 margins divided by 6*/
+	/*margin: 1.66%;*/
+	margin-top: 1.66%;
+	padding: 2%;
+}
+
+p {
+	/*font-family: Kumar One Outline;*/
+	font-family: 'Garamond', cursive;
+	margin-left: 1.66%;
+	font-size: 40px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 3px solid black;
+	border-bottom-style: ridge;
+	width: 100%;
+	padding-bottom: 10px;
+	color: grey;
+	/*
+	background-color: blue;
+	border-color: blue;*/
+}
+
+.jumbotron{
+	color: #2c3e50;
+}
+
+.navbar-inverse{
+	background:  #2c3e50;  
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+}
+
+a{
+
+}
+
+container {
+	
+	padding-top: 10px;
+	margin-bottom: 10px;
+     display:inline;
+     margin-left: 10px;
+     padding-bottom: 10px;
+     height: 100px no-repeat scroll center transparent;
+}
+
+
+
+header{
+	width: 200px;/*
+	background-image: url(http://www.nuffoodsspectrum.in/NuFFooDs_CMS/upload/FILE_5ae315ef4cd0a1.jpg);
+*/}
+
+/*div{
+	float: left;
+}*/
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 10px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 500px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+
